@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/kopi_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KopiDetail"
+    android:background="#C4694611">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/framelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/kopiliberika"/>
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="- KOPI LIBERIKA - "
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1.2"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:text="Kopi Liberika adalah tanaman kopi endemik dari Afrika, tepatnya berasal dari Liberia. Awalnya, tanaman kopi ini digolongkan dalam kelompok kopi Robusta dengan nama ilmiah Coffea canefora var.Liberica. Tetapi pengelompokan paling baru dari para ilmuwan menyatakannya sebagai spesies sendiri dengan nama Coffea liberica.
+
+
+Hal ini karena secara morfologi serta sifat-sifat yang lain tidak sama dengan kopi robusta. Kopi ini dibawa ke Indonesia pada abad ke-19 saat banyak tanaman kopi arabika saat itu terserang penyakit. Daerah yang banyak ditanami jenis kopi Liberika adalah Bengkulu dan Jambi.
+
+Salah satu varian kopi Liberika yang terkenal adalah kopi Excelsa (Coffea liberica var.Dewefrei). Buahnya lebih kecil dari kopi Liberika biasa dan berkulit lebih tipis serta pupus daun lebih berwarna merah. Selain itu, adapula varietas lokal yang berhasil dikembangkan oleh Pusat Penelitian Kopi dan Kakao (Puslit Koka) Indonesia, dengan nama Libtukom, singkatan dari Liberika Tunggal Komposit."
+            android:textColor="#fff"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="LIKE THIS COFFE?"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="YES                                 NO"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
